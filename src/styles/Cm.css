@@ -1,0 +1,75 @@
+.main__caninemaster{
+
+    width: 80%;
+    margin-top: -22vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
+}
+
+
+.main__caninemasterImg{
+    max-width: 100%;
+    
+}
+
+.main__cmButtons{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.main__tokenomics{
+    width:100% ;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1em;
+}
+
+
+.main__tax{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1em;
+    font-size: 5vw;
+    margin-bottom: 2em;
+
+}
+
+@media screen and (max-width:900px) {
+
+    .main__tax{
+        margin-bottom: 50vw;
+        margin-top: 2em;
+        padding-bottom: 10vw;
+        font-size: 5vh;
+    }
+
+    .main__cmButtons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.main__caninemaster{
+    width: 95%;
+}
+
+}
+
+@media screen and (max-width:510px) {
+
+      .main__tax{
+        font-size: 8vw;
+    }
+
+.main__caninemaster{
+    width: 98%;
+}
+
+
+
+}

@@ -1,0 +1,34 @@
+
+.main__taxHeading{
+    font-size: .32rem;
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin-bottom: .80em;
+    margin-top: .60em;
+}
+
+.main__taxDetails{
+    font-size: .3em;
+    display: inline-block;   
+    text-align: center;
+    letter-spacing: 0.06em;
+    padding: 0 .90em;
+}
+
+.main--taxline{
+    border-right: solid #fff 1px;
+}
+
+.main__taxnote1{
+    color:#3DBA41;
+}
+
+@media screen and (max-width:900px) {
+
+    .main__taxDetails{
+        font-size: .5em;
+    }
+
+
+
+}

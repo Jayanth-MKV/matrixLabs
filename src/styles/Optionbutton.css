@@ -1,0 +1,96 @@
+
+.main__cmButton{
+    margin: .165rem 1rem;
+    min-width:1.5em;
+    padding: 0;
+}
+
+.main__caninemasterButton{
+    background: linear-gradient(180deg, #3DBA41 0%, #007B04 100%);
+    border-radius: 6.98795px;
+    font-size: .24rem;
+    align-items: center;
+    display: flex;
+    max-height: 1rem;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main__buttonImage{
+    max-width: 30%;
+}
+
+.main__buttonRectangle1{
+    display: block;
+    margin-left: -10px;
+    width: .20rem;
+    height: .2rem;
+    background: #209C24;
+    transform: rotate(-45deg);
+}
+
+.main__buttonTitle{
+    display: block;
+}
+
+.main__buttonRectangle2{
+    display: block;
+    width: .20rem;
+    height: .20rem;
+    margin-right: -10px;
+    background: #209C24;
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width:900px) {
+
+    .main__cmButton{
+    margin: .1rem .16rem;
+    max-width: 3rem;
+    min-width: 2rem;
+    }
+
+    .main__caninemasterButton{
+            max-height: .6rem;
+    }
+
+    .main__buttonRectangle1{
+    margin-left: -.075rem;
+    width: .15rem;
+    height: .15rem;
+
+}
+
+
+.main__buttonRectangle2{
+    width: .15rem;
+    height: .15rem;
+    margin-right: -.075rem;
+
+}
+
+
+}
+
+@media screen and (max-width:510px) {
+
+    .main__cmButton{
+    margin: .1rem .15rem;
+    max-width: 2rem;
+    min-width: 1rem;
+    }
+
+    .main__caninemasterButton{
+            max-height: .5rem;
+            font-size: .15rem;
+    }
+
+    .main__buttonTitle{
+        padding-right: .25rem;
+    }
+
+    .main__buttonImage{
+        max-width: 20%;
+    }
+
+}

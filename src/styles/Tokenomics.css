@@ -1,0 +1,35 @@
+
+.main__tokenomicsHeading{
+    font-size: .32rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.main__tokenomicsTopic{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: .20rem;
+    line-height: .30rem;
+    text-transform: uppercase;
+}
+
+.main__tokenomicsPercent{
+    padding-right: .5em;
+}
+
+.main__tokenomicsName{
+    color: #FFD947;
+}
+
+.main__tokenomicsChests{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+.main__tokenomicsImg{
+    max-width: 40%;
+    width: 40%;
+}

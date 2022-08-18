@@ -1,0 +1,39 @@
+.main__feminemaster{
+    width:80%;
+    margin-top: -26vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main__feminemasterImg{
+    max-width: 100%;
+}
+
+.main__feminemasterImg2{
+    max-width: 100%;
+    width: 90%;
+    margin-top: .65em;
+}
+
+.main__feminemasterDetails{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: .32rem;
+    line-height: .39rem;
+    text-align: center;
+    margin-top: 2.50em;
+}
+
+@media screen and (max-width:900px) {
+.main__feminemaster{
+    margin-top: 1em;
+    }
+
+    .main__feminemasterDetails{
+        font-size: .2rem;
+        margin-bottom: 2rem;
+    }
+
+}
+
