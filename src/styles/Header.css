@@ -148,7 +148,7 @@ align-items: center;
 }
 
 .header__icon{
-    margin-bottom: 0px;
+    margin-bottom: -2rem;
     padding: 0px;
     display: flex;
 }
@@ -208,11 +208,15 @@ font-size: calc(3vw + .1em) ;
     font-size: calc(.25rem + 1vw);
 }
 
+.header__listItems .header__item{
+    margin: .1rem;
+}
+
 .header__list{
     align-items: flex-start;
     flex-direction: column;
-    padding-left: 1rem;
-
+    padding-left: 5vh;
+    padding-top: 20vh;
 }
 
 
@@ -220,33 +224,37 @@ font-size: calc(3vw + .1em) ;
 .header__listItems.active{
     display: flex;
     flex-direction: column;
+    padding-top: 5vh;
 }
 
 }
 
-/* 
+
 @media screen and (max-width:600px) {
 
 
     .header{
-    padding: 0px !important; 
-    margin: 0px !important;
-   height: fit-content;
-  display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
    
+  }
+
+.header__icon{
+    margin-bottom: -2rem;
+    display: flex;  
 }
 
 .header__logo{
-    width:80%;
-    margin: 0px;
-    padding: 0px;
+    display: block;
+    width:60%;
+    padding: 0px ;
+    max-height: 100%;
 }
 
 .header__logoName{
-font-size: calc(4vw + .1em) ;
+    position: relative;
+    right:5px;
+ bottom:4em;
+max-width: 100%;
+    font-size: calc(2.5vw + .1em) ;
 }
 
 .header__navBtn{
@@ -254,22 +262,30 @@ font-size: calc(4vw + .1em) ;
 
 }
 
+.header__button{
+   position: absolute;
+    top:1vh;
+    right: 3.5vh;
+    display: block; 
+    font-size: 3vw;
+    padding: 1vh 2vh;
+}
 
 .toggle-button {
     position: absolute;
-    top: .65rem;
-    right: .7em;
+    top: 1.5vh;
+    right: 3.5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: .40rem;
-    height: .3rem;
+    width: .30rem;
+    height: .2rem;
     margin: 0px;
     padding: 0px;
 }
 
 .toggle-button .bar {
-    height: .05rem;
+    height: .03em;
     width: 100%;
     background-color: white;
     border-radius: 10px;
@@ -279,26 +295,26 @@ font-size: calc(4vw + .1em) ;
 .header__listItems{
     flex-direction: column;
     display: none;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    font-size: calc(.25rem + 1vw);
-}
-
-
-
-.header__item{
-    padding: .1rem;
+    align-items: center;
+    justify-content: space-around;
+    font-size: calc(.15rem + 1vw);
+    
 }
 
 .header__list{
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
+    padding-left: 5vh;
+    padding-top: 20vh;
+
 }
 
 
 
 .header__listItems.active{
     display: flex;
+    flex-direction: column;
+    padding-top: 5vh;
 }
 
-} */
+}
