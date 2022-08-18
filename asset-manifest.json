@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Jayanth-MKV/matrixLabs.git/static/css/main.99a13bb8.css",
-    "main.js": "/Jayanth-MKV/matrixLabs.git/static/js/main.a64cafe9.js",
-    "static/js/787.84dc400d.chunk.js": "/Jayanth-MKV/matrixLabs.git/static/js/787.84dc400d.chunk.js",
-    "static/media/grey-background.png": "/Jayanth-MKV/matrixLabs.git/static/media/grey-background.c519885bd7aa2e6f41a4.png",
-    "static/media/black-bg.png": "/Jayanth-MKV/matrixLabs.git/static/media/black-bg.7826cc58f04b6f139c5b.png",
-    "static/media/green-bg.png": "/Jayanth-MKV/matrixLabs.git/static/media/green-bg.ae843ed175edf84216e3.png",
-    "index.html": "/Jayanth-MKV/matrixLabs.git/index.html",
-    "main.99a13bb8.css.map": "/Jayanth-MKV/matrixLabs.git/static/css/main.99a13bb8.css.map",
-    "main.a64cafe9.js.map": "/Jayanth-MKV/matrixLabs.git/static/js/main.a64cafe9.js.map",
-    "787.84dc400d.chunk.js.map": "/Jayanth-MKV/matrixLabs.git/static/js/787.84dc400d.chunk.js.map"
+    "main.css": "/matrixLabs/static/css/main.ee62e5d8.css",
+    "main.js": "/matrixLabs/static/js/main.a7f4ad36.js",
+    "static/js/787.84dc400d.chunk.js": "/matrixLabs/static/js/787.84dc400d.chunk.js",
+    "static/media/grey-background.png": "/matrixLabs/static/media/grey-background.c519885bd7aa2e6f41a4.png",
+    "static/media/black-bg.png": "/matrixLabs/static/media/black-bg.7826cc58f04b6f139c5b.png",
+    "static/media/green-bg.png": "/matrixLabs/static/media/green-bg.ae843ed175edf84216e3.png",
+    "index.html": "/matrixLabs/index.html",
+    "main.ee62e5d8.css.map": "/matrixLabs/static/css/main.ee62e5d8.css.map",
+    "main.a7f4ad36.js.map": "/matrixLabs/static/js/main.a7f4ad36.js.map",
+    "787.84dc400d.chunk.js.map": "/matrixLabs/static/js/787.84dc400d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99a13bb8.css",
-    "static/js/main.a64cafe9.js"
+    "static/css/main.ee62e5d8.css",
+    "static/js/main.a7f4ad36.js"
   ]
 }
