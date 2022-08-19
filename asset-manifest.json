@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/matrixLabs/static/css/main.ebfffd4e.css",
-    "main.js": "/matrixLabs/static/js/main.a7f4ad36.js",
+    "main.css": "/matrixLabs/static/css/main.4dbc7671.css",
+    "main.js": "/matrixLabs/static/js/main.81c2493e.js",
     "static/js/787.84dc400d.chunk.js": "/matrixLabs/static/js/787.84dc400d.chunk.js",
     "static/media/grey-background.png": "/matrixLabs/static/media/grey-background.c519885bd7aa2e6f41a4.png",
     "static/media/black-bg.png": "/matrixLabs/static/media/black-bg.7826cc58f04b6f139c5b.png",
     "static/media/green-bg.png": "/matrixLabs/static/media/green-bg.ae843ed175edf84216e3.png",
     "index.html": "/matrixLabs/index.html",
-    "main.ebfffd4e.css.map": "/matrixLabs/static/css/main.ebfffd4e.css.map",
-    "main.a7f4ad36.js.map": "/matrixLabs/static/js/main.a7f4ad36.js.map",
+    "main.4dbc7671.css.map": "/matrixLabs/static/css/main.4dbc7671.css.map",
+    "main.81c2493e.js.map": "/matrixLabs/static/js/main.81c2493e.js.map",
     "787.84dc400d.chunk.js.map": "/matrixLabs/static/js/787.84dc400d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebfffd4e.css",
-    "static/js/main.a7f4ad36.js"
+    "static/css/main.4dbc7671.css",
+    "static/js/main.81c2493e.js"
   ]
 }
