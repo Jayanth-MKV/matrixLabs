@@ -2,10 +2,12 @@ import React from 'react'
 import '../styles/Main.css'
 import Cm from './Cm'
 import Fm from './Fm'
+import Typing from './Typing'
 
 function Main() {
   return (
     <div className='main'>
+      <Typing />
       <div className='main__title'>
         <h1 className='main__titleHeading'>The Kuppy System</h1>
         <p className='main__titleParagraph'>The Kuppy Clans Ecosystem consists of our two Native</p>
